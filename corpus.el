@@ -1,3 +1,19 @@
+;;; corpus.el --- Search corpus file  -*- lexical-binding: t; -*-
+
+;; Copyright (C) 2010-2021 Yanshuo Chu
+
+
+;; Author: Yanshuo Chu <yanshuochu@qq.com>
+;; Maintainer: Yanshuo Chu <yanshuochu@qq.com>
+;; Created: 24 Sep 2022
+
+;; Keywords: corpus
+;; URL: https://github.com/dustincys/corpus.el
+
+;; This file is not part of GNU Emacs.
+;; This file is free software
+;; along with this file.  If not, see <https://www.gnu.org/licenses/>.
+
 (require 'helm)
 
 (defun show-path (path)
